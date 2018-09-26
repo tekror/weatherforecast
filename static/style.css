@@ -1,0 +1,98 @@
+body {
+  background-color: #D3D3D3;
+  font-family: Helvetica;
+}
+
+input {
+  background-color: #D3D3D3;
+}
+
+.area {
+  float: left;
+  padding: 10px;
+  font-family: Helvetica;
+  clear: both;
+}
+
+.day {
+  float: left;
+  width: 425px;
+  height: 150px;
+  clear: both;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.date {
+  float: left;
+  padding: 10px;
+  clear: both;
+  text-align: center;
+  width: 100px;
+}
+
+.temp {
+  float: left;
+  height: 100px;
+  width: 50px;
+  vertical-align: middle;
+  line-height: 100px;
+  padding-right: 10px;
+}
+
+.maxTemp, .minTemp {
+  float: left;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.maxTemp {
+  background-color: red;
+}
+
+.minTemp {
+  background-color: blue;
+}
+
+.blankTemp {
+  float: left;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+}
+
+.rain {
+  height: 100px;
+  float: left;
+  vertical-align: middle;
+  line-height: 100px;
+  width: 200px;
+}
+
+.rainAmount, .rainChance, .blankRain {
+  float: left;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 50px;
+  width: 200px;
+}
+
+.description {
+  float: left;
+  padding: 10px;
+  height: 50px;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+h3, h5 {
+  padding: 0;
+}
